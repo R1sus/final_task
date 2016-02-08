@@ -1,0 +1,27 @@
+
+@media only screen and (max-width: 414px) {
+    body {
+        background-color: #fff;
+        margin: 0px auto;
+        width: 414px;
+    }
+    header{
+
+        padding-bottom:20px;
+
+    }
+    #wrapper {
+        width: 373px;
+        margin: 0px auto;
+        padding:0px;
+    }
+
+    #logo {
+        margin-top:21px;
+        float:left;
+        display: inline-block;
+        margin-right:150px;
+        width:60px;
+        height:56px;
+    }
+}
