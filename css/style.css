@@ -43,7 +43,7 @@ header{
     float:left;
     display: inline-block;
     margin-right:4px;
-    width:37px;
+    width:38px;
     height:43px;
 }
 #logo img {
@@ -142,11 +142,9 @@ a {
     line-height: 14px;
     text-decoration: none;
 }
-#basket p {
-    margin-top:48px;
-}
+
 header p {
-    margin-top: 40px;
+    margin-top: 45px;
     float:left;
 }
 /* MAIN*/
@@ -165,7 +163,7 @@ h4{
     font-size: 24px;
     line-height: 1.45;
     text-align: center;
-    color:   #606060;
+    color:    #a3a3a3;
     margin-top:15px;
     letter-spacing: 1.4px;
 }
@@ -233,7 +231,7 @@ h5{
     font-size: 18px;
     line-height: 1;
     text-align: center;
-    color:   #606060;
+    color:    #a3a3a3;
     letter-spacing: 0.9px;
 }
 input[type="email"] {
@@ -386,4 +384,6 @@ footer h6 {
     height: 32px;
     display: inline-block;
 }
+
+
 

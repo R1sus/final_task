@@ -143,10 +143,7 @@ a {
     text-decoration: none;
 }
 #basket p {
-    margin-top:48px;
-}
-header p {
-    margin-top: 40px;
+    margin-top:45px;
     float:left;
 }
 /*MAIN*/
@@ -193,8 +190,11 @@ h1 {
     border:1px solid #e5e5e5;
 }
 .item img {
+    align-self: center;
     text-align: center;
     margin: 0px auto;
+    padding: 0px auto;
+    position: relative;
 
 }
 h3 {
