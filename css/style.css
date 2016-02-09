@@ -22,6 +22,9 @@ body {
     font-family: Georgia Italic;
     src: url('../fonts/georgia-italic.ttf');
 }
+a:hover {
+    text-decoration: underline ;
+}
 header{
     display: inline-block;
     padding-bottom:37px;
@@ -53,6 +56,9 @@ header{
 
 nav {
     float:left;
+}
+.mobile_menu {
+    display:none;
 }
 header ul {
     list-style-type:none;
@@ -194,6 +200,9 @@ button[name="new_arrival"] {
      /* Убираем рамку в Chrome и Safari */
     -webkit-appearance: textfield;
 }
+button[name="new_arrival"]:hover {
+    background-color:#e5e5e5;
+}
 .squares {
     width:100%;
     position: relative;
@@ -262,6 +271,10 @@ input[type="submit"] {
     outline: none; /* Убираем свечение в Chrome и Safari */
     -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
 
+}
+
+input[type="submit"]:hover {
+    background-color:#e67429;
 }
 
 

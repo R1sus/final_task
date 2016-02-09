@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 414px) {
+@media only screen and (min-width: 414px) {
     body {
         background-color: #fff;
         margin: 0px auto;
@@ -15,39 +15,58 @@
     header {
 
         padding-bottom: 20px;
+        border-bottom: none;
     }
 
     #logo {
         margin-top: 21px;
         float: left;
         display: inline-block;
+        width: 56px;
+        height: 56px;
 
     }
     #logo img {
         width: 60px;
         height: 56px;
     }
-
-    nav {
+    .mobile_menu {
+        width:100%;
+        margin:0px auto;
+        margin-top:20px;
+        display:block;
         text-align: center;
-        float: none;
-
         border-bottom: 1px solid #e5e5e5;
+
+        border-top: 1px solid #e5e5e5;
+    }
+    nav {
+
+        display: none;
+
     }
 
     header ul {
         list-style-type: none;
         text-align: center;
         float: none;
+        margin-top:0px ;
     }
 
     header ul > li {
         font-family: "Lato Regular";
-        font-size: 14px;
+        font-size: 17px;
         line-height: 14px;
         display: block;
-        margin-top: 30px;
+        margin-top: 20px;
         float: none;
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 44px;
+
+    }
+    header ul >li:nth-child(4) {
+        margin-bottom: 22px;
 
     }
 
@@ -62,6 +81,7 @@
         height: 42px;
         float: left;
         margin-top: 30px;
+        margin-right:10px;
     }
 
     .search_img_active {
@@ -73,16 +93,17 @@
         margin-top: 36px;
     }
 
-    /*.search_input{
-        float:left;
+    .search_input{
+        float:none;
         display: none;
+        margin-top:20px;
     }
     input[type=search] {
         margin-top:36px;
-
         font-family: "Lato Italic";
         color: #606060;
-        height:36px;  float:left;
+        height:40px;
+        float:left;
         font-size: 11px;
         padding-left:10px;
         outline: none;
@@ -98,17 +119,18 @@
         display: none;
     }
     input[type=search]:focus {
-        width:150px;
+        width:325px;
     }
 
-*/
     a {
         text-decoration: none;
+        color:#303030;
+
     }
 
     #basket {
-        float: left;
-        margin-right: 0px;
+        float: right;
+        margin-right: 7px;
 
     }
 
@@ -132,6 +154,7 @@
 
     #basket p {
         margin-top: 42px;
+        font-size:17px;
     }
 
     header p {
@@ -141,10 +164,10 @@
 
     /* MAIN*/
     h1 {
-        margin-top: 52px;
+        margin-top: 16px;
         font-family: "Lato Regular";
         font-size: 69px;
-        line-height: 1.5;
+        line-height: 1.15;
         text-align: center;
         text-transform: uppercase;
         color: #303030;
@@ -157,7 +180,7 @@
         line-height: 1.45;
         text-align: center;
         color: #a3a3a3;
-        margin-top: 15px;
+        margin-top: 25px;
         letter-spacing: 1.4px;
         margin-bottom: 54px;
     }
@@ -165,8 +188,8 @@
     form {
         text-align: justify;
         height: auto;
-        margin-top: 56px;
-        margin-bottom: 76px;
+        margin-top: 8px;
+
         display: inline-block;
 
     }
@@ -202,7 +225,7 @@
     }
 
     h2 {
-        margin-top: 85px;
+        margin-top: 80px;
         font-family: "Lato Bold";
         font-size: 24px;
         line-height: 1.16;
@@ -213,7 +236,7 @@
     }
 
     h5 {
-        margin-top: 19px;
+        margin-top: 14px;
         font-family: "Georgia Italic";
         font-size: 18px;
         line-height: 1.2;
@@ -228,7 +251,7 @@
         position: relative;
 
         width: 263px;
-        height: 51px;
+        height: 53px;
         font-family: "Lato Italic";
         color: #606060;
         font-size: 20px;
@@ -265,6 +288,9 @@
         background-color: #e5e5e5;
         margin-bottom: 3px;
         border-bottom: 1px solid #e5e5e5;
+    }
+    a:hover {
+        text-decoration: underline ;
     }
 
     .carousel-wrapper {
@@ -325,7 +351,7 @@
     footer ul {
         display: block;
         float:none;
-        width: 297px;
+        width: auto;
         position: relative;
         border-left: none;
         margin: 0px auto;
@@ -346,33 +372,36 @@
     }
 
     footer li{
-        margin-bottom: 8px;
+        margin-top: 0px;
+        margin-bottom: 15px;
         text-align: center;
     }
     footer a {
         color:#303030;
         text-align: center;
-        font-size: 12px;
+        font-size: 18px;
         font-family: "Lato Regular";
-        text-transform: capitalize;
+        text-transform: none;
         line-height: 1px;
-        letter-spacing: 1.25px;
+        letter-spacing: 0.3px;
         display: inline-block;
     }
 
     footer h6 {
         margin-top: 55px;
         color:#303030;
-        font-size: 22px;
+        font-size: 30px;
         font-family: "Lato Bold";
         text-transform: uppercase;
-        margin-bottom: 58px;
-        letter-spacing: 2px;
+        margin-bottom: 67px;
+        letter-spacing: 4px;
         line-height: 1px;
         text-align: center;
     }
     .social {
+        width:142px;
         float: none;
+
         text-align: center;
         margin:0px auto;
         margin-top:40px;
@@ -384,13 +413,17 @@
         width: 32px;
         height: 32px;
         display: inline-block;
+        margin-right:17px;
     }
     .facebook {
         background: url(../img/sprite.png) no-repeat -107px -34px;
         width: 32px;
         height: 32px;
         display: inline-block;
-    }
+        margin-right:17px;
+
+
+        }
     .instagram {
         background: url(../img/sprite.png) no-repeat  -84px -84px;
         width: 32px;
