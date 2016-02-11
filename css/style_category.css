@@ -148,6 +148,7 @@ a {
 }
 /*MAIN*/
 #top_bread {
+    margin-top: 30px;
     float: left;
 
 }
@@ -162,7 +163,7 @@ a {
 }
 h1 {
 
-    margin-top:60px;
+
     font-family: "Lato Bold";
     font-size: 34px;
     line-height: 1.16;
@@ -179,18 +180,18 @@ h1 {
     flex-direction: row;
     display: flex;
     justify-content: space-between;
-
     border-bottom: 1px solid #e5e5e5;
 
 }
 .item{
     width:209px;
     height:254px;
+    text-align: center;
     background-color: #fff;
     border:1px solid #e5e5e5;
 }
 .item img {
-    align-self: center;
+
     text-align: center;
     margin: 0px auto;
     padding: 0px auto;
@@ -215,6 +216,64 @@ h3 {
     margin-bottom: 65px;
     text-transform: capitalize;
 }
+
+h2 {
+    margin-top:48px;
+    font-family: "Georgia Italic";
+    font-size: 18px;
+    line-height: 1;
+    color: #606060;
+    text-align: center;
+}
+.carousel {
+    margin-top:75px;
+    width:100%;
+    background-color: #e5e5e5;
+    margin-bottom: 58px;
+}
+
+.carousel-wrapper{
+    overflow: hidden;
+    position: relative;
+    margin-left:40px;
+    margin-right:41px;
+}
+.carousel-items {
+    width: 10000px; /* устанавливаем большую ширину для набора элементов */
+    position: relative; /* позиционируем блок относительно основной области карусели */
+}
+.carousel-block {
+    width:200px;
+    height:120px;
+    display:inline-block;
+    background-color: #cccccc;
+    float:left;
+    border: 1px solid;
+    border-color:#9e9e9e;
+}
+
+.carousel-button-left a, .carousel-button-right a{
+    width: 23px;
+    height: 40px;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+    text-decoration:none;
+}
+.carousel-button-left a{
+    float: left;
+    background: url(../img/button_left.png);
+
+}
+.carousel-button-right a{
+    float: right;
+    background: url(../img/button_right.png);
+}
+.carousel-block img{
+    display:block;
+}
+
+
 
 
 /*FOOTER*/

@@ -209,20 +209,17 @@ button[name="new_arrival"]:hover {
     padding:0px;
     flex-direction: row;
     display: flex;
+    font-size:0px;
 
 }
 .rectangle {
-    width:25%;
-    height:294px;
+    width:295px;
     vertical-align:top;
-
+    font-size: 0px;
 }
-.light{
-    background-color:#dbdbdb;
-
-}
- .dark {
-    background-color:#606060;
+.rectangle img{
+    width: 295px;
+    height: 295px;
 }
 h2{
     margin-top: 80px;

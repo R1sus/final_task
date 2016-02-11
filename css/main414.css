@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 414px) {
+@media only screen and (max-width: 414px) {
     body {
         background-color: #fff;
         margin: 0px auto;
@@ -182,13 +182,13 @@
         color: #a3a3a3;
         margin-top: 25px;
         letter-spacing: 1.4px;
-        margin-bottom: 54px;
+        margin-bottom: 37px;
     }
 
     form {
         text-align: justify;
         height: auto;
-        margin-top: 8px;
+        margin-top: 0px;
 
         display: inline-block;
 
@@ -206,23 +206,42 @@
         flex-direction: column;
         display: flex;
 
+
     }
 
     .rectangle {
         width: 100%;
-        height: 294px;
+        text-align: center;
+        margin: 0px auto;
+        font-size: 0px;
         vertical-align: top;
-
+        position: relative;
+    }
+    .rec_1 img {
+        width:373px;
+        height:230px;
+        object-fit:cover;
+        margin: 0px auto;
+        padding: 0px;
+      }
+    .rec_2 img{
+        height:198px;
+        width:373px;
+        object-fit:cover;
+    }
+    .rec_3 img{
+        height:153px;
+        width:373px;
+        object-fit:cover;
+    }
+    .rec_4 img{
+        height:277px;
+        width:373px;
+        object-fit:cover;
     }
 
-    .light {
-        background-color: #dbdbdb;
 
-    }
 
-    .dark {
-        background-color: #606060;
-    }
 
     h2 {
         margin-top: 80px;
@@ -383,7 +402,7 @@
         font-family: "Lato Regular";
         text-transform: none;
         line-height: 1px;
-        letter-spacing: 0.3px;
+        letter-spacing: 0px;
         display: inline-block;
     }
 
@@ -401,7 +420,6 @@
     .social {
         width:142px;
         float: none;
-
         text-align: center;
         margin:0px auto;
         margin-top:40px;
