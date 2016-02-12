@@ -21,61 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.807693">
-              <caret line="115" column="14" selection-start-line="79" selection-start-column="8" selection-end-line="115" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.19137931">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+      <file leaf-file-name="pdp.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pdp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.884615">
-              <caret line="323" column="1" selection-start-line="277" selection-start-column="0" selection-end-line="323" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main414.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main414.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614">
-              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main768.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main768.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category_all.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/category_all.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846">
-              <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style_category.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/style_category.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.938294">
-              <caret line="179" column="24" selection-start-line="179" selection-start-column="24" selection-end-line="179" selection-end-column="24" />
+            <state vertical-scroll-proportion="82.30769">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -85,17 +45,27 @@
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+              <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main1024.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main1024.css">
+      <file leaf-file-name="pdp_style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/pdp_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+            <state vertical-scroll-proportion="-108.26923">
+              <caret line="226" column="5" selection-start-line="226" selection-start-column="5" selection-end-line="226" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="112.57692">
+              <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -106,9 +76,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -121,14 +91,24 @@
         <option value="$USER_HOME$/Desktop/carousel/css/styles-carousel.css" />
         <option value="$USER_HOME$/Desktop/carousel/index.html" />
         <option value="$PROJECT_DIR$/js/search.js" />
-        <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/css/main414.css" />
         <option value="$PROJECT_DIR$/css/main768.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main1024.css" />
+        <option value="$PROJECT_DIR$/css/category414.css" />
+        <option value="$PROJECT_DIR$/css/category768.css" />
         <option value="$PROJECT_DIR$/category_all.html" />
         <option value="$PROJECT_DIR$/css/style_category.css" />
+        <option value="$PROJECT_DIR$/css/category1024.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/main414.css" />
+        <option value="$PROJECT_DIR$/css/pdp.css" />
+        <option value="$PROJECT_DIR$/js/pdp.html" />
+        <option value="$USER_HOME$/Desktop/product/Product/css/global.css" />
+        <option value="$USER_HOME$/Desktop/product/Product/js/slides.min.jquery.js" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/css/pdp_style.css" />
+        <option value="$PROJECT_DIR$/js/pdpscr.js" />
+        <option value="$PROJECT_DIR$/pdp.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -197,20 +177,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -303,7 +269,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12518302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -406,18 +372,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/css/main768.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main1024.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        <state vertical-scroll-proportion="-21.0">
+          <caret line="412" column="0" selection-start-line="334" selection-start-column="3" selection-end-line="412" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/category1024.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66206896">
+          <caret line="191" column="18" selection-start-line="191" selection-start-column="18" selection-end-line="191" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -430,42 +404,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main768.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.807693">
-          <caret line="115" column="14" selection-start-line="79" selection-start-column="8" selection-end-line="115" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.884615">
-          <caret line="323" column="1" selection-start-line="277" selection-start-column="0" selection-end-line="323" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/category_all.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
-          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.58965516">
+          <caret line="57" column="10" selection-start-line="54" selection-start-column="4" selection-end-line="57" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style_category.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.938294">
-          <caret line="179" column="24" selection-start-line="179" selection-start-column="24" selection-end-line="179" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.6810345">
+          <caret line="165" column="1" selection-start-line="149" selection-start-column="0" selection-end-line="165" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/category414.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35172415">
+          <caret line="12" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="373" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/category768.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/product/Product/js/slides.min.jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5233969">
+          <caret line="87" column="95" selection-start-line="87" selection-start-column="95" selection-end-line="87" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/product/Product/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5603448">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/product/Product/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9413793">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="112.57692">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/pdp_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-108.26923">
+          <caret line="226" column="5" selection-start-line="226" selection-start-column="5" selection-end-line="226" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/pdpscr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14026402">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="82.30769">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19137931">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>
