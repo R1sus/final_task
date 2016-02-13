@@ -24,6 +24,16 @@ body {
 }
 a:hover {
     text-decoration: underline ;
+    color:#303030;
+}
+a:link{
+    color:#303030;
+}
+a:visited {
+    color:#303030;
+}
+a:active {
+    color: #303030;
 }
 header{
     display: inline-block;
@@ -76,6 +86,7 @@ header ul>li{
 #right_menu{
     float:right;
 
+
 }
 
 .search_img {
@@ -103,7 +114,8 @@ input[type=search] {
 
     font-family: "Lato Italic";
     color: #606060;
-    height:36px;  float:left;
+    height:36px;
+    float:left;
     font-size: 11px;
     padding-left:10px;
     outline: none;
@@ -126,12 +138,46 @@ input[type=search]:focus {
 a {
     text-decoration: none;
 }
+
+#basket_mob {
+    display:none;
+    float: right;
+    margin-left: 7px;
+
+}
+
+#basket_mob img {
+
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 45px;
+    margin-right: 10px;
+}
+
+#basket_mob a {
+    display: inline-block;
+    font-family: "Lato Regular";
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration: none;
+}
+
+#basket_mob p {
+    margin-top: 45px;
+
+}
+
+
+
 #basket {
     float:left;
     margin-right:30px;
 
 
 }
+
 #basket img {
 
     width: 22px;

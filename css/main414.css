@@ -3,7 +3,7 @@
     body {
         background-color: #fff;
         margin: 0px auto;
-        width: 414px;
+        width: 100%;
     }
 
     #wrapper {
@@ -33,7 +33,7 @@
     .mobile_menu {
         width:100%;
         margin:0px auto;
-        margin-top:20px;
+        margin-top:25px;
         display:block;
         text-align: center;
         border-bottom: 1px solid #e5e5e5;
@@ -90,7 +90,7 @@
         height: 42px;
         float: right;
         display: none;
-        margin-top: 36px;
+        margin-top: 13px;
     }
 
     .search_input{
@@ -99,7 +99,7 @@
 
     }
     input[type=search] {
-        margin-top:36px;
+        margin-top:13px;
         font-family: "Lato Italic";
         color: #606060;
         width:316px;
@@ -120,14 +120,58 @@
         display: none;
     }
     input[type=search]:focus {
-        width:315px;
+        width:316px;
     }
 
-    a {
+    a:link {
         text-decoration: none;
         color:#303030;
 
     }
+    a:hover {
+        color:#303030;
+    }
+    a:visited {
+        color:#303030;
+    }
+    a:active {
+        color:#303030;
+    }
+
+    #basket_mob {
+        display:none;
+        float: right;
+        margin-right: 7px;
+
+    }
+
+    #basket_mob img {
+
+        width: 26px;
+        height: 26px;
+        display: inline-block;
+        margin-left: 0px;
+        margin-top: 38px;
+        margin-right: 10px;
+    }
+
+    #basket_mob a {
+        display: inline-block;
+        font-family: "Lato Regular";
+        font-size: 14px;
+        line-height: 14px;
+        text-decoration: none;
+    }
+
+    #basket_mob p {
+        margin-top: 37px;
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+
+
+
+
 
     #basket {
         float: right;
@@ -136,7 +180,6 @@
     }
 
     #basket img {
-
         width: 26px;
         height: 26px;
         display: inline-block;
@@ -155,6 +198,7 @@
 
     #basket p {
         margin-top: 42px;
+        margin-bottom: 10px;
         font-size:17px;
     }
 

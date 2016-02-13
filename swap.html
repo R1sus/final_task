@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>swap</title>
+    <link href="css/pdp_style.css" rel="stylesheet" media="screen" type="text/css"/>
+</head>
+<body>
+<html>
+
+<head>
+
+    <script type="text/javascript">
+        function swap(image) {
+            document.getElementById("main").src = image.href;
+        }
+    </script>
+
+</head>
+
+<body>
+
+
+<div class="product_switch">
+    <div class="product"><img id="main" src="img/shoes.jpg"></div>
+    <div class = "mini_container">
+        <div class ="product_mini"><a href="img/shoes_1.jpg" onclick="swap(this); return false;"><img src="img/shoes_1_small.jpg"></a></div>
+        <div class ="product_mini"><a href="img/shoes_2.jpg" onclick="swap(this); return false;"><img src="img/shoes_2_small.jpg"></a></div>
+        <div class ="product_mini"><a href="img/shoes_3.jpg" onclick="swap(this); return false;"><img src="img/shoes_3_small.jpg"></a></div>
+    </div>
+</div>
+
+
+<!-- <img id="main" src="images/main.jpg" width="50">
+
+     <a href="images/picture1_big.jpg" onclick="swap(this); return false;"><img src="images/picture1_small.jpg"></a>
+     <a href="images/picture2_big.jpg" onclick="swap(this); return false;"><img src="images/picture2_small.jpg"></a>
+     <a href="images/picture3_big.jpg" onclick="swap(this); return false;"><img src="images/picture3_small.jpg"></a>-->
+
+</body>
+</html>
+
+</body>
+</html>

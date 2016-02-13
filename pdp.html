@@ -10,6 +10,13 @@
     <script src ="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="js/index.js" async ></script>
     <link href="css/pdp_style.css" rel="stylesheet" media="screen" type="text/css"/>
+
+    <link href="css/pdp414.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript">
+        function swap(image) {
+            document.getElementById("main_img").src = image.href;
+        }
+    </script>
 </head>
 <body>
 <div id="wrapper">
@@ -58,16 +65,17 @@
         </div>
 
         <div class="product_switch">
-            <div class="product"><img src="img/shoes.jpg"></div>
-        <div class = "mini_container">
-        <div class ="product_mini"><img src="img/shoes_mini.jpg"></div>
-            <div class ="product_mini"> <img src="img/shoes_mini.jpg"></div>
-                <div class ="product_mini"><img src="img/shoes_mini.jpg"></div>
+            <div class="product"><img id= "main_img" src="img/shoes.jpg"></div>
+            <div class = "mini_container">
+                <div class ="product_mini"><a href="img/shoes_1.jpg" onclick="swap(this); return false;"><img src="img/shoes_1_small.jpg"></a></div>
+                <div class ="product_mini"><a href="img/shoes_2.jpg" onclick="swap(this); return false;"><img src="img/shoes_2_small.jpg"></a></div>
+                <div class ="product_mini"><a href="img/shoes_3.jpg" onclick="swap(this); return false;"><img src="img/shoes_3_small.jpg"></a></div>
+            </div>
         </div>
-        </div>
+
         <h1> Floral Plimsoll</h1>
         <h3>Article number 14210160762</h3>
-        <h5>$ 99,95</h5>
+        <h5>&euro; 99,95</h5>
         <p class="text">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendise a pellentesque dui, non felis.</br>
         Maecenas malesuada elit lestur felis, malesuada ultricies.</p>
         <h4>Size</h4>
@@ -79,7 +87,7 @@
             <div class = "block_size"><p>42</p></div>
         </div>
         <form>
-            <button type="button" name="add"><a href="#">Add to cart</a> </button>
+            <input type="button" name="add" value="Add to cart" onFocus="if(this.value='text')this.value='product added'">
         </form>
         <div class="carousel">
 

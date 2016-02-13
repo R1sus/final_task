@@ -67,9 +67,24 @@ header ul>li{
     margin-top:46px;
     margin-left: 57px;
 }
+a:link{
+    color:#303030;
+}
+a:hover {
+    color:#303030;
+}
+a:visited {
+    color:#303030;
+}
+a:active {
+    color:#303030;
+}
 #right_menu{
     float:right;
 
+}
+.mobile_menu{
+    display: none;
 }
 
 .search_img {

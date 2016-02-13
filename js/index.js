@@ -47,6 +47,8 @@ $(document).on('mouseleave', '.carousel', function(){$(this).removeClass('hover'
 document.querySelector(".search_img").addEventListener("click", function(){
     document.querySelector(".search_input").style.display = "block";
 
+    document.querySelector("#basket").style.display = "none";
+    document.querySelector("#basket_mob").style.display = "block";
 
     document.querySelector(".search_img").style.display = "none";
     document.querySelector(".search_img_active").style.display = "block";
