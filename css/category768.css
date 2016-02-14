@@ -2,11 +2,11 @@
     body {
         background-color: #fff;
         margin: 0px auto;
-        width: 768px;
+        width: 100%;
     }
 
     #wrapper {
-        width: 729px;
+        width: 94.92%;
         margin: 0px auto;
         padding: 0px;
     }
@@ -270,12 +270,6 @@
         margin-bottom: 20px;
         text-transform: capitalize;
     }
-
-
-
-
-
-
 
 
     h2 {

@@ -15,7 +15,7 @@
     }
 
     #wrapper {
-        width: 975px;
+        width: 95.214%;
         height: 100%;
         background-color: #fff;
         margin: 0px auto;
@@ -212,7 +212,7 @@
     }
 
     .rectangle {
-        width: 245px;
+        width: 25%;
         vertical-align: top;
         font-size: 0px;
     }
@@ -342,7 +342,7 @@
     footer ul {
         display: inline-block;
         float: left;
-        width: 235px;
+        width: 24%;
         position: relative;
         border-left: 1px solid #e5e5e5;
         margin: 0px auto;
@@ -356,6 +356,7 @@
 
     footer li {
         margin-bottom: 8px;
+
     }
 
     footer a {

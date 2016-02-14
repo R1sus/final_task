@@ -2,12 +2,12 @@
     body {
         background-color: #fff;
         margin: 0px auto;
-        width: 414px;
+        width: 100%;
 
     }
 
     #wrapper {
-        width: 373px;
+        width: 90.09%;
         margin: 0px auto;
         padding: 0px;
     }
@@ -93,7 +93,7 @@
         height: 42px;
         float: right;
         display: none;
-        margin-top: 36px;
+        margin-top: 13px;
     }
 
     .search_input {
@@ -103,10 +103,10 @@
     }
 
     input[type=search] {
-        margin-top: 36px;
+        margin-top: 13px;
         font-family: "Lato Italic";
         color: #606060;
-        width: 316px;
+        width: 84.71%;
         height: 36px;
         float: left;
         font-size: 11px;
@@ -162,6 +162,37 @@
 
     #basket p {
         margin-top: 42px;
+        font-size: 17px;
+    }
+
+    #basket_mob {
+        display:none;
+        float: right;
+        margin-right: 7px;
+
+    }
+
+    #basket_mob img {
+
+        width: 26px;
+        height: 26px;
+        display: inline-block;
+        margin-left: 0px;
+        margin-top: 38px;
+        margin-right: 10px;
+    }
+
+    #basket_mob a {
+        display: inline-block;
+        font-family: "Lato Regular";
+        font-size: 14px;
+        line-height: 14px;
+        text-decoration: none;
+    }
+
+    #basket_mob p {
+        margin-top: 37px;
+        margin-bottom: 10px;
         font-size: 17px;
     }
 

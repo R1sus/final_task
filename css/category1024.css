@@ -2,7 +2,7 @@
     body {
         background-color: #fff;
         margin: 0px auto;
-        width: 1024px;
+        width: 100%;
 
     }
 
@@ -15,7 +15,7 @@
     }
 
     #wrapper {
-        width: 959px;
+        width: 93.65%;
         height: 100%;
         background-color: #fff;
         margin: 0px auto;
@@ -189,7 +189,7 @@
     footer ul {
         display: inline-block;
         float: left;
-        width: 232px;
+        width: 24%;
         position: relative;
         border-left: 1px solid #e5e5e5;
         margin: 0px auto;

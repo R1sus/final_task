@@ -7,7 +7,7 @@
     }
 
     #wrapper {
-        width: 729px;
+        width: 94.92% ;
         margin: 0px auto;
         padding: 0px;
     }
@@ -179,6 +179,9 @@
     }
 
     /* MAIN*/
+    main {
+        width: 100%;
+    }
     h1 {
         margin-top: 16px;
         font-family: "Lato Regular";

@@ -7,13 +7,13 @@
     }
 
     #wrapper {
-        width: 373px;
+        width: 90.09%;
         margin: 0px auto;
         padding: 0px;
     }
 
     header {
-
+        width: 100%;
         padding-bottom: 20px;
         border-bottom: none;
     }
@@ -102,7 +102,7 @@
         margin-top:13px;
         font-family: "Lato Italic";
         color: #606060;
-        width:316px;
+        width:310px;
         height:36px;
         float:left;
         font-size: 11px;
@@ -207,7 +207,9 @@
         float: left;
     }
 
-    /* MAIN*/
+    main {
+        width: 100%;
+    }/* MAIN*/
     h1 {
         margin-top: 16px;
         font-family: "Lato Regular";
