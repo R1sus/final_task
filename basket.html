@@ -2,9 +2,149 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Basket</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+
+    <script src="js/jquery-1.12.0.min.js"></script>
+
+    <link href="css/style_basket.css" rel="stylesheet"  type="text/css"/>
 </head>
 <body>
+<div id="wrapper">
+<header>
+    <div id="logo">
+        <img src="img/logo.png">
+    </div>
+    <div id="basket_mob">
+        <img src="img/basket.png">
+        <a href="#"><p>Basket (0)</p></a>
+    </div>
 
+
+    <nav>
+        <ul>
+            <li><a href="#">Woman</a></li>
+            <li><a href="category_all.html">Men</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="pdp.html">Coming Soon</a></li>
+        </ul>
+    </nav>
+    <div id="right_menu">
+        <div class="search_input">
+            <input type="search" placeholder="Search something">
+        </div>
+
+        <div class="search_img"></div>
+        <div class="search_img_active"></div>
+
+        <div id="basket">
+            <img src="img/basket.png">
+            <a href="#"><p>Basket (0)</p></a>
+        </div>
+    </div>
+
+    <nav class=mobile_menu>
+        <ul>
+            <li><a href="#">Woman</a></li>
+            <li><a href="category_all.html">Men</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="pdp.html">Coming Soon</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div id="top_bread">
+        <a href="index.html"><p>Home /</p></a>
+        <a href="category_all.html"><p> Men /</p></a>
+        <a href="pdp.html"><p> Shoes /</p></a>
+        <a href="pdp.html"><p> Floral Plimsoll </p></a>
+    </div>
+    <h1>Your shopping bag</h1>
+    <h3>Items reserved for limited time only</h3>
+    <table id="basket_goods">
+        <tr class="table_frame">
+            <td>Product</td>
+            <td>Description</td>
+            <td>Color</td>
+            <td>Size</td>
+            <td>Qty</td>
+            <td>Ammount</td>
+            <td>Delete</td>
+        </tr>
+        <tr class="goods">
+            <td><img src="img/shoes_1_small.jpg"></td>
+            <td>Floral Plimsoll</td>
+            <td>Black</td>
+            <td>39</td>
+            <td>1</td>
+            <td>&euro;99.95</td>
+            <td>&times;</td>
+        </tr>
+        <tr class="goods">
+            <td><img src="img/shoes_2_small.jpg"> </td>
+            <td>Floral Plimsoll</td>
+            <td>One Color</td>
+            <td>M</td>
+            <td>1</td>
+            <td>&euro;99.95</td>
+            <td>&times;</td>
+        </tr>
+        <tr class="goods">
+            <td> <img src="img/shoes_3_small.jpg"></td>
+            <td>Floral Plimsoll</td>
+            <td>One Color</td>
+            <td>S</td>
+            <td>1</td>
+            <td>&euro;99.95</td>
+            <td>&times;</td>
+        </tr>
+
+    </table>
+
+
+</main>
+    <footer>
+        <ul class="breadcrumbs">
+            <h6>Collection </h6>
+            <li><a href="">Woman</a></li>
+            <li><a href="">Men</a></li>
+            <li><a href="">Kids</a></li>
+            <li><a href="">Coming soon</a></li>
+        </ul>
+
+        <ul class="breadcrumbs">
+            <h6>Site </h6>
+            <li><a href="">Terms of service</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Copyrigh Policy</a></li>
+            <li><a href="">Press Kit</a></li>
+            <li><a href="">Support</a></li>
+        </ul>
+
+        <ul class="breadcrumbs">
+            <h6>Shop </h6>
+            <li><a href="">About us</a></li>
+            <li><a href="">Shipping Methods</a></li>
+            <li><a href="">Career</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+
+        <ul class="breadcrumbs">
+            <h6>Social </h6>
+            <li><a href="">Shoper is made with love in Warsaw.</a></li>
+            <li><a href="">2014 &copy All Rights Reserved. El Passion </a></li>
+            <div class="social">
+                <div class="twitter"></div>
+                <div class="facebook"></div>
+                <div class="instagram"></div>
+            </div>
+        </ul>
+
+
+    </footer>
+
+</div>
+<script src="js/index.js" ></script>
 </body>
 </html>
