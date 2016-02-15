@@ -125,9 +125,7 @@
         display: none;
     }
 
-    input[type=search]:focus {
-        width: 316px;
-    }
+
 
     a {
         text-decoration: none;

@@ -111,7 +111,8 @@ input[type=search] {
     margin-top:36px;
     font-family: "Lato Italic";
     color: #606060;
-    height:36px;  float:left;
+    height:36px;
+    float:left;
     font-size: 11px;
     padding-left:10px;
     outline: none;
@@ -125,9 +126,6 @@ input[type=search] {
 input::-webkit-search-decoration,
 input::-webkit-search-cancel-button {
     display: none;
-}
-input[type=search]:focus {
-    width:150px;
 }
 
 

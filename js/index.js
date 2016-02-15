@@ -51,5 +51,5 @@ document.querySelector(".search_img").addEventListener("click", function(){
     document.querySelector("#basket_mob").style.display = "block";
 
     document.querySelector(".search_img").style.display = "none";
-    document.querySelector(".search_img_active").style.display = "block";
+    document.querySelector(".search_img_active").style.display = "inline-block";
 })

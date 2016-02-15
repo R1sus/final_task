@@ -1,4 +1,4 @@
-
+﻿
 @media only screen and (max-width: 414px) {
     body {
         background-color: #fff;
@@ -37,7 +37,6 @@
         display:block;
         text-align: center;
         border-bottom: 1px solid #e5e5e5;
-
         border-top: 1px solid #e5e5e5;
     }
     nav {
@@ -47,14 +46,13 @@
     }
 
     header ul {
-        list-style-type: none;
         text-align: center;
         float: none;
         margin-top:0px ;
     }
 
     header ul > li {
-        font-family: "Lato Regular";
+        
         font-size: 17px;
         line-height: 14px;
         display: block;
@@ -90,7 +88,7 @@
         height: 42px;
         float: right;
         display: none;
-        margin-top: 13px;
+        margin-top: 27px;
     }
 
     .search_input{
@@ -106,6 +104,7 @@
         height:36px;
         float:left;
         font-size: 11px;
+        line-height: 36px;
         padding-left:10px;
         outline: none;
         -webkit-appearance: textfield;
@@ -119,9 +118,7 @@
     input::-webkit-search-cancel-button {
         display: none;
     }
-    input[type=search]:focus {
-        width:316px;
-    }
+
 
     a:link {
         text-decoration: none;
@@ -168,8 +165,6 @@
         margin-bottom: 10px;
         font-size: 17px;
     }
-
-
 
 
 

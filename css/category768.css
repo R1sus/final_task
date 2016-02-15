@@ -123,10 +123,6 @@
         display: none;
     }
 
-    input[type=search]:focus {
-        width: 325px;
-    }
-
     a {
         text-decoration: none;
         color: #303030;

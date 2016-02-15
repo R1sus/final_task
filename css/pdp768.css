@@ -83,22 +83,23 @@
         background: url(../img/sprite.png) no-repeat -5px -77px;
         width: 42px;
         height: 42px;
-        float: right;
+        float: left;
         display: none;
-        margin-top: 30px;
+        margin-top: 33px;
     }
 
     .search_input {
         float: left;
         display: none;
+        margin-top:20px;
 
     }
 
     input[type=search] {
-        margin-top: 30px;
+        margin-top: 13px;
         font-family: "Lato Italic";
         color: #606060;
-        width: 316px;
+        width: 150px;
         height: 36px;
         float: left;
         font-size: 11px;
@@ -117,9 +118,6 @@
         display: none;
     }
 
-    input[type=search]:focus {
-        width: 316px;
-    }
 
 
     #basket {

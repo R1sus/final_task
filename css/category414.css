@@ -49,14 +49,13 @@
     }
 
     header ul {
-        list-style-type: none;
         text-align: center;
         float: none;
         margin-top: 0px;
     }
 
     header ul > li {
-        font-family: "Lato Regular";
+
         font-size: 17px;
         line-height: 14px;
         display: block;
@@ -91,24 +90,27 @@
         background: url(../img/sprite.png) no-repeat -5px -77px;
         width: 42px;
         height: 42px;
-        float: left;
+        float: right;
         display: none;
-        margin-top: 36px;
+        margin-top: 27px;
     }
 
     .search_input {
         float: none;
         display: none;
-        margin-top: 20px;
+
     }
 
     input[type=search] {
-        margin-top: 36px;
+        margin-top: 13px;
         font-family: "Lato Italic";
         color: #606060;
-        height: 40px;
+        width: 310px;
+        height: 36px;
         float: left;
         font-size: 11px;
+        display: inline-block;
+        line-height:36px;
         padding-left: 10px;
         outline: none;
         -webkit-appearance: textfield;
@@ -123,15 +125,23 @@
         display: none;
     }
 
-    input[type=search]:focus {
-        width: 325px;
-    }
 
-    a {
+
+    a:link {
         text-decoration: none;
-        color: #303030;
+        color:#303030;
 
     }
+    a:hover {
+        color:#303030;
+    }
+    a:visited {
+        color:#303030;
+    }
+    a:active {
+        color:#303030;
+    }
+
     #basket_mob {
         display:none;
         float: right;
@@ -189,6 +199,7 @@
 
     #basket p {
         margin-top: 42px;
+        margin-bottom:10px;
         font-size: 17px;
     }
 
@@ -198,6 +209,9 @@
     }
 
     /*MAIN*/
+    main{
+        width: 100%;
+    }
 
     #top_bread {
         margin-top: 15px;
