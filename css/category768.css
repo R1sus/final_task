@@ -38,7 +38,6 @@
         display: block;
         text-align: center;
         border-bottom: 1px solid #e5e5e5;
-
         border-top: 1px solid #e5e5e5;
     }
 
@@ -93,20 +92,21 @@
         height: 42px;
         float: left;
         display: none;
-        margin-top: 36px;
+        margin-top: 33px;
     }
 
     .search_input {
-        float: none;
+        float: left;
         display: none;
         margin-top: 20px;
     }
 
     input[type=search] {
-        margin-top: 36px;
+        margin-top: 13px;
         font-family: "Lato Italic";
         color: #606060;
-        height: 40px;
+        width:150px;
+        height: 36px;
         float: left;
         font-size: 11px;
         padding-left: 10px;
@@ -190,7 +190,7 @@
     }
     h1 {
 
-        margin-top: 50px;
+        margin-top: 81px;
         font-family: "Lato Bold";
         font-size: 34px;
         line-height: 1.16;
@@ -206,11 +206,17 @@
         position: relative;
         margin: 0px auto;
         display: inline-block;
-
         padding-bottom: 60px;
         border-bottom: 1px solid #e5e5e5;
-        margin-bottom:37px;
 
+    }
+    .four_items:nth-child(3) {
+        border-bottom:1px solid #fff;
+
+    }
+    .goods_category{
+        padding-bottom:22px;
+        height: auto;
     }
     .item_box {
         width:223px;
@@ -245,14 +251,14 @@
         letter-spacing: 0.5px;
     }
     h4 {
-        margin-top: 44px;
+        margin-top: 59px;
         font-family: "Lato Bold";
-        font-size: 26px;
+        font-size: 35px;
         line-height: 1;
         color:#303030;
         text-transform: uppercase;
         text-align: center;
-        letter-spacing: 1px;
+        letter-spacing: 0px;
         margin-bottom: 78px;
     }
 
@@ -276,13 +282,13 @@
     }
 
     footer {
-        border-top: none;
+        border-top: 1px solid #e5e5e5;
         position: relative;
         width:100%;
         display: inline-block;
 
     }
-    footer ul {
+    .breadcrumbs1 {
         display: block;
         float:none;
         width: auto;
@@ -290,10 +296,14 @@
         border-left: none;
         margin: 0px auto;
         padding-left:0px;
+        text-align: center;
+    }
+    .breadcrumbs1 p {
+        margin-top: 0px;
+        margin-bottom: 15px;
+        text-align: center;
     }
     footer ul:nth-child(1) {
-        border:none;
-        padding-left:0px;
         display:none;
     }
     footer ul:nth-child(2) {
@@ -301,15 +311,10 @@
         display:none;
     }
     footer ul:nth-child(3) {
-
         display:none;
     }
 
-    footer li{
-        margin-top: 0px;
-        margin-bottom: 15px;
-        text-align: center;
-    }
+
     footer a {
         color:#303030;
         text-align: center;
@@ -322,22 +327,24 @@
     }
 
     footer h6 {
-        margin-top: 26px;
+        margin-top: 57px;
         color:#303030;
-        font-size: 30px;
+        font-size: 31px;
         font-family: "Lato Bold";
         text-transform: uppercase;
-        margin-bottom: 67px;
-        letter-spacing: 4px;
+        margin-bottom: 70px;
+        letter-spacing: 3px;
         line-height: 1px;
         text-align: center;
     }
+
+
     .social {
         width:142px;
         float: none;
         text-align: center;
         margin:0px auto;
-        margin-top:40px;
+        margin-top:32px;
         display: block;
         padding: 0px;
     }

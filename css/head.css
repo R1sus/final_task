@@ -1,13 +1,13 @@
 body {
     background-color: #fff;
     margin: 0px auto;
-    width: 414px;
+    width: 100%;
     height:100%;
 
 }
 
 #wrapper {
-    width: 373px;
+    width: 91.2%;
     margin: 0px auto;
     padding: 0px;
 }
@@ -206,3 +206,88 @@ header p {
     margin-top: 40px;
     float: left;
 }
+
+footer {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+
+}
+
+footer ul {
+    display: inline-block;
+    float:left;
+    width: 24%;
+    position: relative;
+    border-left: 1px solid #e5e5e5;
+    margin: 0px auto;
+    padding-left:9px;
+    list-style-type:none;
+}
+footer ul:nth-child(1) {
+    border:none;
+    padding-left:0px;
+}
+
+
+footer li{
+    margin-bottom: 8px;
+    width: 100%;
+
+}
+footer a {
+    color:#303030;
+    text-align: left;
+    font-size: 12px;
+    font-family: "Lato Regular";
+    text-transform: capitalize;
+    line-height: 1px;
+    letter-spacing: 1.25px;
+    display: inline-block;
+}
+
+footer h6 {
+    color:#303030;
+    font-size: 14px;
+    font-family: "Lato Bold";
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    letter-spacing: 2px;
+    line-height: 1px;
+}
+.social {
+    float: left;
+    margin:0px auto;
+    margin-top:15px;
+    display: inline-block;
+    padding: 0px;
+}
+.twitter {
+    background: url(../img/sprite.png) no-repeat -139px -84px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+.twitter:hover {
+
+    background-color: #cccccc;
+}
+.facebook {
+    background: url(../img/sprite.png) no-repeat -107px -34px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+.facebook:hover {
+    background-color: #cccccc;
+}
+.instagram {
+    background: url(../img/sprite.png) no-repeat  -84px -84px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+.instagram:hover {
+    background-color: #cccccc;
+}
+

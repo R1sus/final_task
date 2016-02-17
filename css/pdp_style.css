@@ -32,7 +32,7 @@
     }
 
     #wrapper {
-        width: 81.73%;
+        width: 88%;
         height: 100%;
         background-color: #fff;
         margin: 0px auto;
@@ -258,7 +258,7 @@
 
     h3 {
         margin-top: 22px;
-        font-family: "Georgia Italic";
+        font-family: "Lato Italic";
         font-size: 14px;
         letter-spacing: 0.1px;
         text-align: center;
@@ -320,7 +320,6 @@
         margin-top: 40px;
         text-align: center;
         width: 100%;
-
         border-bottom: 1px solid #e5e5e5;
     }
 
@@ -444,6 +443,10 @@
 
     footer li {
         margin-bottom: 8px;
+        text-decoration: none;
+    }
+    footer a:hover {
+        text-decoration: none;
     }
 
     footer a {
@@ -467,7 +470,24 @@
         letter-spacing: 2px;
         line-height: 1px;
     }
+    .breadcrumbs1 {
+        display: inline-block;
+        float:left;
+        width: 24%;
+        position: relative;
+        border-left: 1px solid #e5e5e5;
+        margin: 0px auto;
+        padding-left:9px;
 
+    }
+    .breadcrumbs1 a {
+        line-height: 12px;
+
+    }
+    .breadcrumbs1 p {
+        height: 100%;
+        margin-bottom: 8px;
+    }
     .social {
         float: left;
         margin: 0px auto;
@@ -483,19 +503,31 @@
         display: inline-block;
     }
 
+    .twitter:hover {
+
+        background-color: #cccccc;
+    }
+
     .facebook {
         background: url(../img/sprite.png) no-repeat -107px -34px;
         width: 32px;
         height: 32px;
         display: inline-block;
     }
-
+    .facebook:hover {
+        background-color: #cccccc;
+    }
     .instagram {
-        background: url(../img/sprite.png) no-repeat -84px -84px;
+        background: url(../img/sprite.png) no-repeat  -84px -84px;
         width: 32px;
         height: 32px;
         display: inline-block;
     }
+    .instagram:hover {
+        background-color: #cccccc;
+    }
+
+
 }
 
 

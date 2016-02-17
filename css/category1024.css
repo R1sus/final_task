@@ -179,10 +179,28 @@
 
     }
 
+    .breadcrumbs1 {
+        display: inline-block;
+        float:left;
+        width: 23%;
+        position: relative;
+        border-left: 1px solid #e5e5e5;
+        margin: 0px auto;
+        padding-left:9px;
+
+    }
+    .breadcrumbs1 a {
+        line-height: 12px;
+
+    }
+    .breadcrumbs1 p {
+        height: 100%;
+        margin-bottom: 8px;
+    }
     footer ul {
         display: inline-block;
         float: left;
-        width: 24%;
+        width: 23%;
         position: relative;
         border-left: 1px solid #e5e5e5;
         margin: 0px auto;

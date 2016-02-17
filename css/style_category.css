@@ -30,7 +30,7 @@ header{
     width: 100%;
 }
 #wrapper {
-    width: 81.73%;
+    width: 88%;
     height: 100%;
     background-color: #fff;
     margin: 0px auto;
@@ -66,6 +66,11 @@ header ul>li{
     display: inline-block;
     margin-top:46px;
     margin-left: 57px;
+
+}
+header ul>li:hover {
+    text-decoration: underline;
+
 }
 a:link{
     color:#303030;
@@ -200,6 +205,9 @@ main {
     display:inline-block;
     color:#606060;
 
+}
+#top_bread a:hover {
+    text-decoration: underline;
 }
 #top_bread p {
     font-family: "Lato Regular";
@@ -343,6 +351,7 @@ h2 {
 /*FOOTER*/
 
 footer {
+
     position: relative;
     width:100%;
     display: inline-block;
@@ -351,7 +360,7 @@ footer {
 footer ul {
     display: inline-block;
     float:left;
-    width:24%;
+    width: 24%;
     position: relative;
     border-left: 1px solid #e5e5e5;
     margin: 0px auto;
@@ -360,24 +369,46 @@ footer ul {
 footer ul:nth-child(1) {
     border:none;
     padding-left:0px;
+    padding-right: 11px;
 }
 
 
 footer li{
     margin-bottom: 8px;
+    width: 100%;
+
 }
 footer a {
     color:#303030;
     text-align: left;
     font-size: 12px;
-    text-decoration: none;
     font-family: "Lato Regular";
     text-transform: capitalize;
     line-height: 1px;
     letter-spacing: 1.25px;
     display: inline-block;
 }
+footer a:hover {
+    text-decoration: none;
+}
+.breadcrumbs1 {
+    display: inline-block;
+    float:left;
+    width: 24%;
+    position: relative;
+    border-left: 1px solid #e5e5e5;
+    margin: 0px auto;
+    padding-left:9px;
 
+}
+.breadcrumbs1 a {
+    line-height: 12px;
+
+}
+.breadcrumbs1 p {
+    height: 100%;
+    margin-bottom: 8px;
+}
 footer h6 {
     color:#303030;
     font-size: 14px;
@@ -400,17 +431,28 @@ footer h6 {
     height: 32px;
     display: inline-block;
 }
+.twitter:hover {
+
+    background-color: #cccccc;
+}
+
 .facebook {
     background: url(../img/sprite.png) no-repeat -107px -34px;
     width: 32px;
     height: 32px;
     display: inline-block;
 }
+.facebook:hover {
+    background-color: #cccccc;
+}
 .instagram {
     background: url(../img/sprite.png) no-repeat  -84px -84px;
     width: 32px;
     height: 32px;
     display: inline-block;
+}
+.instagram:hover {
+    background-color: #cccccc;
 }
 
 

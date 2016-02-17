@@ -300,10 +300,11 @@
         background-color: #008000;
     }
 
-    /*FOOTER*/
+
     .carousel{
         display: none;
     }
+    /*FOOTER*/
 
     footer {
         border-top: 1px solid #e5e5e5;
@@ -312,7 +313,7 @@
         display: inline-block;
 
     }
-    footer ul {
+    .breadcrumbs1 {
         display: block;
         float:none;
         width: auto;
@@ -320,10 +321,14 @@
         border-left: none;
         margin: 0px auto;
         padding-left:0px;
+        text-align: center;
     }
+    .breadcrumbs1 p {
+         margin-top: 0px;
+         margin-bottom: 15px;
+         text-align: center;
+     }
     footer ul:nth-child(1) {
-        border:none;
-        padding-left:0px;
         display:none;
     }
     footer ul:nth-child(2) {
@@ -331,15 +336,10 @@
         display:none;
     }
     footer ul:nth-child(3) {
-
         display:none;
     }
 
-    footer li{
-        margin-top: 0px;
-        margin-bottom: 15px;
-        text-align: center;
-    }
+
     footer a {
         color:#303030;
         text-align: center;

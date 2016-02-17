@@ -14,7 +14,7 @@
 <div id="wrapper">
 <header>
     <div id="logo">
-        <img src="img/logo.png">
+        <a href="index.html"><img src="img/logo.png"></a>
     </div>
     <div id="basket_mob">
         <img src="img/basket.png">
@@ -62,6 +62,7 @@
     </div>
     <h1>Your shopping bag</h1>
     <h3>Items reserved for limited time only</h3>
+
     <table id="basket_goods">
         <tr class="table_frame">
             <td>Product</td>
@@ -69,38 +70,89 @@
             <td>Color</td>
             <td>Size</td>
             <td>Qty</td>
-            <td>Ammount</td>
+            <td>Amount</td>
             <td>Delete</td>
         </tr>
+        <div id="first">
         <tr class="goods">
-            <td><img src="img/shoes_1_small.jpg"></td>
-            <td>Floral Plimsoll</td>
-            <td>Black</td>
-            <td>39</td>
-            <td>1</td>
-            <td>&euro;99.95</td>
-            <td>&times;</td>
+            <td class="item_img"><img src="img/shoes_1_small.jpg"></td>
+            <td class = "item_name"><h4>Floral Plimsoll <p> (1st)</p></h4></br><h6>Ref. 2514/302 </h6></td>
+            <td class ="item_color">Black</td>
+            <td class="item_size">39</td>
+            <td class="item_qty">1</td>
+            <td class = item_price>&euro;99.95</td>
+            <td class="delete_item">&times;</td>
+        </tr></div>
+        <tr class="goods">
+            <td class="item_img"><img src="img/shoes_2_small.jpg"></td>
+            <td class = "item_name"><h4>Floral Plimsoll <p>(2nd)</p></h4></br><h6>Ref. 2514/302 </h6></td>
+            <td class ="item_color">One Color</td>
+            <td class="item_size">M</td>
+            <td class="item_qty">1</td>
+            <td class = item_price>&euro;99.95</td>
+            <td class="delete_item">&times;</td>
         </tr>
         <tr class="goods">
-            <td><img src="img/shoes_2_small.jpg"> </td>
-            <td>Floral Plimsoll</td>
-            <td>One Color</td>
-            <td>M</td>
-            <td>1</td>
-            <td>&euro;99.95</td>
-            <td>&times;</td>
-        </tr>
-        <tr class="goods">
-            <td> <img src="img/shoes_3_small.jpg"></td>
-            <td>Floral Plimsoll</td>
-            <td>One Color</td>
-            <td>S</td>
-            <td>1</td>
-            <td>&euro;99.95</td>
-            <td>&times;</td>
+            <td class="item_img"><img src="img/shoes_3_small.jpg"></td>
+            <td class = "item_name"><h4>Floral Plimsoll <p>(3rd)</p></h4></br><h6>Ref. 2514/302 </h6></td>
+            <td class ="item_color">One Color</td>
+            <td class="item_size">S</td>
+            <td class="item_qty">1</td>
+            <td class = item_price>&euro;99.95</td>
+            <td class="delete_item">&times;</td>
         </tr>
 
     </table>
+    <table id="basket_goods_mob">
+
+        <tr class="goods">
+            <td class="item_img" ><img src="img/shoes_1_small.jpg"></td>
+            <td class = "item_name"><h4>Floral Plimsoll <p> (1st)</p></h4></br>
+                <h6>Ref. 2514/302 </h6></br>
+                <p class ="item_color">Black</p></br>
+                <p class="item_size">39</p></br>
+                <p class="item_qty">1</p></td>
+            <td class = delete_item>&times;</br>
+            <p class="item_price">&euro;99.95</p></td>
+        </tr>
+
+            <tr class="goods">
+                <td class="item_img" ><img src="img/shoes_2_small.jpg"></td>
+                <td class = "item_name"><h4>Floral Plimsoll <p> (2nd)</p></h4></br>
+                    <h6>Ref. 2514/302 </h6></br>
+                    <o class ="item_color">One Color</p></br>
+                    <p class="item_size">M</p></br>
+                    <p class="item_qty">1</p></td>
+                <td class = delete_item>&times;</br>
+                    <p class="item_price">&euro;99.95</p></td>
+            </tr>
+
+        <tr class="goods">
+            <td class="item_img" ><img src="img/shoes_3_small.jpg"></td>
+            <td class = "item_name"><h4>Floral Plimsoll <p> (2nd)</p></h4></br>
+                <h6>Ref. 2514/302 </h6></br>
+                <p class ="item_color">One Color</p></br>
+                <p class="item_size">S</p></br>
+                <p class="item_qty">1</p></td>
+            <td class = delete_item>&times;</br>
+                <p class="item_price">&euro;99.95</p></td>
+        </tr>
+
+
+    </table>
+
+
+    <div class="subtotal">
+        <p>Subtotal:   <span>1000$</span></p>
+    </div>
+
+    <form>
+        <a href="category_all.html"><p>Continue shopping</p></a><input type="button" name="order" value="Order now">
+    </form>
+    <form id="form_mob">
+        <input type="button" name="order" value="Order now"></br>
+        <a href="category_all.html"><p>Continue shopping</p></a>
+    </form>
 
 
 </main>
@@ -130,7 +182,7 @@
             <li><a href="">Contact</a></li>
         </ul>
 
-        <ul class="breadcrumbs">
+        <!--<ul class="breadcrumbs">
             <h6>Social </h6>
             <li><a href="">Shoper is made with love in Warsaw.</a></li>
             <li><a href="">2014 &copy All Rights Reserved. El Passion </a></li>
@@ -139,8 +191,17 @@
                 <div class="facebook"></div>
                 <div class="instagram"></div>
             </div>
-        </ul>
-
+        </ul>-->
+        <div class="breadcrumbs1">
+            <h6>Social </h6>
+            <a href=""><p>Shoper is made with love in Warsaw.</p>
+                <p>2014 &copy All Rights Reserved. El Passion</p></a>
+            <div class="social">
+                <div class="twitter"></div>
+                <div class="facebook"></div>
+                <div class="instagram"></div>
+            </div>
+            </div>
 
     </footer>
 
