@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1823ff81-2539-4985-be00-dd2cf40620f1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/1row_2.jpg" afterPath="$PROJECT_DIR$/img/1row_2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/1row_3.jpg" afterPath="$PROJECT_DIR$/img/1row_3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/1row_4.jpg" afterPath="$PROJECT_DIR$/img/1row_4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/2row_1.jpg" afterPath="$PROJECT_DIR$/img/2row_1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/2row_2.jpg" afterPath="$PROJECT_DIR$/img/2row_2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/2row_3.jpg" afterPath="$PROJECT_DIR$/img/2row_3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/2row_4.jpg" afterPath="$PROJECT_DIR$/img/2row_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thank-you.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basket.html" afterPath="$PROJECT_DIR$/basket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category_all.html" afterPath="$PROJECT_DIR$/category_all.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/category1024.css" afterPath="$PROJECT_DIR$/css/category1024.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/category414.css" afterPath="$PROJECT_DIR$/css/category414.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/category768.css" afterPath="$PROJECT_DIR$/css/category768.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/head.css" afterPath="$PROJECT_DIR$/css/head.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/pdp768.css" afterPath="$PROJECT_DIR$/css/pdp768.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/pdp_style.css" afterPath="$PROJECT_DIR$/css/pdp_style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style_basket.css" afterPath="$PROJECT_DIR$/css/style_basket.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style_category.css" afterPath="$PROJECT_DIR$/css/style_category.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.html" afterPath="$PROJECT_DIR$/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdp.html" afterPath="$PROJECT_DIR$/pdp.html" />
     </list>
     <ignored path="finalTask.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,28 +30,38 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state vertical-scroll-proportion="-38.545456">
+              <caret line="173" column="35" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.076923">
-              <caret line="1119" column="18" selection-start-line="1119" selection-start-column="18" selection-end-line="1119" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.938294">
+              <caret line="1816" column="26" selection-start-line="1816" selection-start-column="26" selection-end-line="1816" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style_basket.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style_basket.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style_basket.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72232306">
-              <caret line="954" column="27" selection-start-line="954" selection-start-column="27" selection-end-line="954" selection-end-column="27" />
+            <state vertical-scroll-proportion="-6.7272725">
+              <caret line="828" column="16" selection-start-line="828" selection-start-column="16" selection-end-line="828" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thank-you.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thank-you.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -77,8 +70,8 @@
       <file leaf-file-name="basket.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basket.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-58.73077">
-              <caret line="189" column="43" selection-start-line="189" selection-start-column="43" selection-end-line="189" selection-end-column="43" />
+            <state vertical-scroll-proportion="-16.5">
+              <caret line="152" column="90" selection-start-line="152" selection-start-column="90" selection-end-line="152" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -90,8 +83,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -132,9 +125,11 @@
         <option value="$PROJECT_DIR$/css/category768.css" />
         <option value="$PROJECT_DIR$/pdp.html" />
         <option value="$PROJECT_DIR$/css/category1024.css" />
+        <option value="$PROJECT_DIR$/thank.html" />
+        <option value="$PROJECT_DIR$/thank-you.html" />
         <option value="$PROJECT_DIR$/basket.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/style_basket.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -144,8 +139,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="width" value="788" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -188,20 +184,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="finalTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,10 +300,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="788" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21891192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12371889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -659,32 +641,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state vertical-scroll-proportion="-38.545456">
+          <caret line="173" column="35" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/thank-you.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.076923">
-          <caret line="1119" column="18" selection-start-line="1119" selection-start-column="18" selection-end-line="1119" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basket.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-58.73077">
-          <caret line="189" column="43" selection-start-line="189" selection-start-column="43" selection-end-line="189" selection-end-column="43" />
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style_basket.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72232306">
-          <caret line="954" column="27" selection-start-line="954" selection-start-column="27" selection-end-line="954" selection-end-column="27" />
+        <state vertical-scroll-proportion="-6.7272725">
+          <caret line="828" column="16" selection-start-line="828" selection-start-column="16" selection-end-line="828" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basket.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.5">
+          <caret line="152" column="90" selection-start-line="152" selection-start-column="90" selection-end-line="152" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.938294">
+          <caret line="1816" column="26" selection-start-line="1816" selection-start-column="26" selection-end-line="1816" selection-end-column="26" />
           <folding />
         </state>
       </provider>

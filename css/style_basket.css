@@ -826,6 +826,7 @@ form{
 #form_mob a {
     text-align: center;
     font-size: 15px;
+    width: 100%;
     padding-right: 0px;
     padding-left: 0px;
 
