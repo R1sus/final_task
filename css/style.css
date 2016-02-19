@@ -28,6 +28,9 @@ a:visited {
 a:active {
     color: #303030;
 }
+
+
+
 @media only screen and (max-width: 1440px) {
 body {
     background-color: #e5e5e5;
@@ -116,24 +119,14 @@ header ul>li{
 }
 input[type=search] {
     margin-top:36px;
-
     font-family: "Lato Italic";
     color: #606060;
-    height:36px;
+    height:42px;
     float:left;
     font-size: 11px;
     padding-left:10px;
     outline: none;
-     -webkit-appearance: textfield;
-     -webkit-box-sizing: content-box;
-     -webkit-transition: all .5s;
-     -moz-transition: all .5s;
-     transition: all .5s;
-}
 
-input::-webkit-search-decoration,
-input::-webkit-search-cancel-button {
-    display: none;
 }
 
 a {
@@ -308,10 +301,8 @@ input[type="email"] {
     color: #606060;
     font-size: 11px;
     padding-left:10px;
-    outline: none; /* Убираем свечение в Chrome и Safari */
-    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
-    -webkit-appearance: textfield;
-    -webkit-box-sizing: content-box;
+    outline: none;
+   /* Убираем свечение в Chrome и Safari */
 
 }
 input[type="submit"] {
@@ -325,7 +316,8 @@ input[type="submit"] {
     box-shadow: none;
     border: none;
     outline: none; /* Убираем свечение в Chrome и Safari */
-    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+
+
 
 }
 
@@ -580,22 +572,14 @@ footer h6 {
         margin-top: 36px;
         font-family: "Lato Italic";
         color: #606060;
-        height: 36px;
+        height: 42px;
         float: left;
         font-size: 11px;
         padding-left: 10px;
         outline: none;
-        -webkit-appearance: textfield;
-        -webkit-box-sizing: content-box;
-        -webkit-transition: all .5s;
-        -moz-transition: all .5s;
-        transition: all .5s;
+
     }
 
-    input::-webkit-search-decoration,
-    input::-webkit-search-cancel-button {
-        display: none;
-    }
 
     a {
         text-decoration: none;
@@ -738,9 +722,7 @@ footer h6 {
         font-size: 11px;
         padding-left: 10px;
         outline: none; /* Убираем свечение в Chrome и Safari */
-        -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
-        -webkit-appearance: textfield;
-        -webkit-box-sizing: content-box;
+
 
     }
 
@@ -754,8 +736,9 @@ footer h6 {
         background-color: #f68236;
         box-shadow: none;
         border: none;
+
         outline: none; /* Убираем свечение в Chrome и Safari */
-        -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+
 
     }
 
@@ -982,22 +965,16 @@ footer h6 {
         font-family: "Lato Italic";
         color: #606060;
         width:150px;
-        height:36px;
+        height:42px;
         float:left;
         font-size: 11px;
         padding-left:10px;
         outline: none;
-        -webkit-appearance: textfield;
-        -webkit-box-sizing: content-box;
-        -webkit-transition: all .5s;
-        -moz-transition: all .5s;
-        transition: all .5s;
+
+
     }
 
-    input::-webkit-search-decoration,
-    input::-webkit-search-cancel-button {
-        display: none;
-    }
+
 
 
     a:link {
@@ -1169,9 +1146,6 @@ footer h6 {
         font-size: 20px;
         padding-left: 10px;
         outline: none; /* Убираем свечение в Chrome и Safari */
-        -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
-        -webkit-appearance: textfield;
-        -webkit-box-sizing: content-box;
 
     }
 
@@ -1187,9 +1161,7 @@ footer h6 {
         background-color: #f68236;
         box-shadow: none;
         border: none;
-        /*margin-bottom: 76px;*/
-        outline: none; /* Убираем свечение в Chrome и Safari */
-        -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+
 
     }
 
@@ -1322,7 +1294,7 @@ footer h6 {
 
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 414px)and (min-width:414px)   {
     body {
         background-color: #fff;
         margin: 0px auto;
@@ -1391,6 +1363,7 @@ footer h6 {
 
     }
 
+
     #right_menu {
         float: right;
         display: inline-block;
@@ -1411,11 +1384,11 @@ footer h6 {
         height: 42px;
         float: right;
         display: none;
-        margin-top: 27px;
+        margin-top: 33px;
     }
 
     .search_input{
-        float:left;
+
         display: none;
 
     }
@@ -1424,24 +1397,14 @@ footer h6 {
         font-family: "Lato Italic";
         color: #606060;
         width:310px;
-        height:36px;
+        height:42px;
         float:left;
         font-size: 11px;
         line-height: 36px;
         padding-left:10px;
         outline: none;
-        -webkit-appearance: textfield;
-        -webkit-box-sizing: content-box;
-        -webkit-transition: all .5s;
-        -moz-transition: all .5s;
-        transition: all .5s;
-    }
 
-    input::-webkit-search-decoration,
-    input::-webkit-search-cancel-button {
-        display: none;
     }
-
 
     a:link {
         text-decoration: none;
@@ -1488,8 +1451,6 @@ footer h6 {
         margin-bottom: 10px;
         font-size: 17px;
     }
-
-
 
     #basket {
         float: right;
@@ -1639,16 +1600,13 @@ footer h6 {
         font-size: 20px;
         padding-left: 10px;
         outline: none; /* Убираем свечение в Chrome и Safari */
-        -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
-        -webkit-appearance: textfield;
-        -webkit-box-sizing: content-box;
+
 
     }
 
     input[type="submit"] {
         display: inline-block;
         position: relative;
-
         width: 95px;
         height: 56px;
         font-family: "Lato Regular";
@@ -1658,9 +1616,7 @@ footer h6 {
         background-color: #f68236;
         box-shadow: none;
         border: none;
-        /*margin-bottom: 76px;*/
-        outline: none; /* Убираем свечение в Chrome и Safari */
-        -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+
 
     }
 

@@ -10,10 +10,8 @@
     <script src ="js/jquery-1.12.0.min.js"></script>
 
 
-    <link href="css/pdp_style.css" rel="stylesheet" media="screen" type="text/css"/>
-    <link href="css/pdp1024.css" rel="stylesheet" type="text/css"/>
-    <link href="css/pdp768.css" rel="stylesheet" type="text/css"/>
-    <link href="css/pdp414.css" rel="stylesheet" type="text/css"/>
+    <link href="css/pdp_style.css" rel="stylesheet"  type="text/css"/>
+
 
     <script type="text/javascript">
         function swap(image) {
@@ -25,10 +23,10 @@
 <div id="wrapper">
     <header>
         <div id="logo">
-            <a href="index.html"><img src="img/logo.png"></a>
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
         </div>
         <div id="basket_mob">
-            <img src="img/basket.png">
+            <img src="img/basket.png" alt="basket">
             <a href="basket.html"><p>Basket (0)</p></a>
         </div>
         <nav>
@@ -49,8 +47,8 @@
             </div>
 
             <div id="basket">
-                <img src="img/basket.png">
-                <a href="basket.html"><p>Basket (0)</p></a>
+                <img src="img/basket.png" alt="basket">
+                <a href="basket.html"><p>Basket <span id="item_count">(0)</span></p></a>
             </div>
         </div>
 
@@ -72,11 +70,11 @@
         </div>
 
         <div class="product_switch">
-            <div class="product"><img id= "main_img" src="img/shoes.jpg"></div>
+            <div class="product"><img id= "main_img" src="img/shoes.jpg" alt="shoes"></div>
             <div class = "mini_container">
-                <div class ="product_mini"><a href="img/shoes_1.jpg" onclick="swap(this); return false;"><img src="img/shoes_1_small.jpg"></a></div>
-                <div class ="product_mini"><a href="img/shoes_2.jpg" onclick="swap(this); return false;"><img src="img/shoes_2_small.jpg"></a></div>
-                <div class ="product_mini"><a href="img/shoes_3.jpg" onclick="swap(this); return false;"><img src="img/shoes_3_small.jpg"></a></div>
+                <div class ="product_mini"><a href="img/shoes_1.jpg" onclick="swap(this); return false;"><img src="img/shoes_1_small.jpg" alt="shoes"></a></div>
+                <div class ="product_mini"><a href="img/shoes_2.jpg" onclick="swap(this); return false;"><img src="img/shoes_2_small.jpg" alt="shoes"></a></div>
+                <div class ="product_mini"><a href="img/shoes_3.jpg" onclick="swap(this); return false;"><img src="img/shoes_3_small.jpg" alt="shoes"></a></div>
             </div>
         </div>
 
@@ -94,7 +92,7 @@
             <div class = "block_size"><p>42</p></div>
         </div>
         <form>
-            <input type="button" name="add" value="Add to cart" onFocus="if(this.value='text')this.value='product added'">
+            <input id="add_button" type="button" name="add" value="Add to cart" onFocus="if(this.value='text')this.value='product added'" >
         </form>
         <div class="carousel">
 
@@ -103,30 +101,28 @@
             <div class ="carousel-wrapper">
                 <div class="carousel-items">
                     <div class="carousel-block">
-                        <img src="/images/7.jpg" alt="" />
+                        <img src="img/botin.jpg" alt="please, wait. imgs loading" />
                     </div>
                     <div class="carousel-block">
-                        <img src="/images/7.jpg" alt="" />
+                        <img src="img/botin.jpg" alt="please, wait. imgs loading" />
                     </div>
                     <div class="carousel-block">
-                        <img src="/images/7.jpg" alt="" />
+                        <img src="img/botin.jpg" alt="please, wait. imgs loading" />
                     </div>
                     <div class="carousel-block">
-                        <img src="/images/7.jpg" alt="" />
+                        <img src="img/botin.jpg" alt="please, wait. imgs loading" />
                     </div>
                     <div class="carousel-block">
-                        <img src="/images/7.jpg" alt="" />
-                    </div>
-
-                    <div class="carousel-block">
-                        <img src="/images/7.jpg" alt="" />
-                    </div>
-
-                    <div class="carousel-block">
-                        <img src="/images/7.jpg" alt="" />
+                        <img src="img/botin.jpg" alt="please, wait. imgs loading" />
                     </div>
                     <div class="carousel-block">
-                        <img src="/images/7.jpg" alt="" />
+                        <img src="img/botin.jpg" alt="please, wait. imgs loading" />
+                    </div>
+                    <div class="carousel-block">
+                        <img src="img/botin.jpg" alt="please, wait. imgs loading" />
+                    </div>
+                    <div class="carousel-block">
+                        <img src="img/botin.jpg" alt="please, wait. imgs loading" />
                     </div>
 
                 </div>

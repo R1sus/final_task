@@ -91,7 +91,7 @@
         height: 42px;
         float: right;
         display: none;
-        margin-top: 27px;
+        margin-top: 33px;
     }
 
     .search_input {
@@ -105,25 +105,15 @@
         font-family: "Lato Italic";
         color: #606060;
         width: 310px;
-        height: 36px;
+        height: 42px;
         float: left;
         font-size: 11px;
         display: inline-block;
         line-height:36px;
         padding-left: 10px;
         outline: none;
-        -webkit-appearance: textfield;
-        -webkit-box-sizing: content-box;
-        -webkit-transition: all .5s;
-        -moz-transition: all .5s;
-        transition: all .5s;
-    }
 
-    input::-webkit-search-decoration,
-    input::-webkit-search-cancel-button {
-        display: none;
     }
-
 
 
     a:link {
