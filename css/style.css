@@ -292,7 +292,7 @@ h5{
     color:    #a3a3a3;
     letter-spacing: 0.9px;
 }
-input[type="email"] {
+input[name="email"] {
     margin-top: 56px;
     padding:0;
     width: 460px;
@@ -712,7 +712,7 @@ footer h6 {
         letter-spacing: 0.9px;
     }
 
-    input[type="email"] {
+    input[name="email"] {
         margin-top: 56px;
         padding: 0;
         width: 460px;
@@ -1062,7 +1062,7 @@ footer h6 {
     }
 
     .squares {
-        width: 500px;
+        width: 70%;
         position: relative;
         padding: 0px;
         margin: 0px auto;
@@ -1135,7 +1135,7 @@ footer h6 {
 
     }
 
-    input[type="email"] {
+    input[name="email"] {
 
         display: inline-block;
         position: relative;
@@ -1525,7 +1525,7 @@ footer h6 {
     }
 
     .squares {
-        width: 373px;
+        width: 100%;
         position: relative;
         padding: 0px;
         margin: 0px auto;
@@ -1588,7 +1588,7 @@ footer h6 {
         letter-spacing: 0.9px;
     }
 
-    input[type="email"] {
+    input[name="email"] {
 
         display: inline-block;
         position: relative;

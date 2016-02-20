@@ -252,8 +252,9 @@ a:active {
 
     #basket_goods {
         width: 100%;
-        cursor: pointer;
+        cursor: default;
     }
+
     td:nth-child(1) {
         width: 11.6%;
     }

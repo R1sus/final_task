@@ -55,6 +55,15 @@ document.querySelector(".search_img").addEventListener("click", function(){
 })
 document.querySelector("#add_button").addEventListener("click", function() {
     document.querySelector("#add_button").style.backgroundColor="#008000";
-    document.querySelector("#item_count").innerHTML="(1)";
+    //document.querySelector("#item_count").innerHTML="(1)";
 })
 
+
+var elem = document.getElementById('item_count'),
+    num = +elem.innerHTML;
+
+function addNum()
+{
+    num++;
+    elem.innerHTML = num;
+}

@@ -76,8 +76,8 @@
         <h2>Sign up to receive our updates</h2>
         <h5>Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus et ultrices volutpat.</h5>
 
-        <form>
-            <input type="email" placeholder="Your e-mail"><input type="submit" name="add_button" value="add">
+        <form onsubmit="return checkmail(this.email.value)">
+            <input name="email"  placeholder="Your e-mail"><input type="submit" name="add_button" value="add">
 
         </form>
         <div class="carousel">
@@ -158,6 +158,7 @@
 
 </div>
 <script src="js/index.js"></script>
+<script src="js/email.js"></script>
 
 </body>
 </html>
